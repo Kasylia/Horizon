@@ -46,3 +46,7 @@
 #main_avatar_room #avatar:not(.role-colors-disabled) #avatar-list li.admin .username {
     color: #FF7E00;
 }
+
+#main_avatar_room #avatar:not(.role-colors-disabled) #avatar-list li.user-waddiebot .user-role {
+    color: #DFBF4A;
+}
