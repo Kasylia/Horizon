@@ -1,0 +1,48 @@
+#chat:not(.role-colors-disabled) .chat-container .chat-messages .chat-main li.resident-dj .user-role,
+#chat:not(.role-colors-disabled) .chat-container .chat-messages .chat-main li.resident-dj .username,
+#main_avatar_room #avatar:not(.role-colors-disabled) #avatar-list li.resident-dj .user-role,
+#main_avatar_room #avatar:not(.role-colors-disabled) #avatar-list li.resident-dj .username {
+    color: #33CCFF;
+}
+
+#chat:not(.role-colors-disabled) .chat-container .chat-messages .chat-main li.vip .user-role,
+#chat:not(.role-colors-disabled) .chat-container .chat-messages .chat-main li.vip .username,
+#main_avatar_room #avatar:not(.role-colors-disabled) #avatar-list li.vip .user-role,
+#main_avatar_room #avatar:not(.role-colors-disabled) #avatar-list li.vip .username {
+    color: #D99741;
+}
+
+#chat:not(.role-colors-disabled) .chat-container .chat-messages .chat-main li.mod .user-role,
+#chat:not(.role-colors-disabled) .chat-container .chat-messages .chat-main li.mod .username,
+#main_avatar_room #avatar:not(.role-colors-disabled) #avatar-list li.mod .user-role,
+#main_avatar_room #avatar:not(.role-colors-disabled) #avatar-list li.mod .username {
+    color: #3083FF;
+}
+
+#chat:not(.role-colors-disabled) .chat-container .chat-messages .chat-main li.manager .user-role,
+#chat:not(.role-colors-disabled) .chat-container .chat-messages .chat-main li.manager .username,
+#main_avatar_room #avatar:not(.role-colors-disabled) #avatar-list li.manager .user-role,
+#main_avatar_room #avatar:not(.role-colors-disabled) #avatar-list li.manager .username {
+    color: #3083FF;
+}
+
+#chat:not(.role-colors-disabled) .chat-container .chat-messages .chat-main li.co-owner .user-role,
+#chat:not(.role-colors-disabled) .chat-container .chat-messages .chat-main li.co-owner .username,
+#main_avatar_room #avatar:not(.role-colors-disabled) #avatar-list li.co-owner .user-role,
+#main_avatar_room #avatar:not(.role-colors-disabled) #avatar-list li.co-owner .username {
+    color: #FF007F;
+}
+
+#chat:not(.role-colors-disabled) .chat-container .chat-messages .chat-main li.creator .user-role,
+#chat:not(.role-colors-disabled) .chat-container .chat-messages .chat-main li.creator .username,
+#main_avatar_room #avatar:not(.role-colors-disabled) #avatar-list li.creator .user-role,
+#main_avatar_room #avatar:not(.role-colors-disabled) #avatar-list li.creator .username {
+    color: #E46BC4;
+}
+
+#chat:not(.role-colors-disabled) .chat-container .chat-messages .chat-main li.admin .user-role,
+#chat:not(.role-colors-disabled) .chat-container .chat-messages .chat-main li.admin .username,
+#main_avatar_room #avatar:not(.role-colors-disabled) #avatar-list li.admin .user-role,
+#main_avatar_room #avatar:not(.role-colors-disabled) #avatar-list li.admin .username {
+    color: #FF7E00;
+}

@@ -1,0 +1,76 @@
+/* All icons */
+#chat .chat-container ul.chat-main li.resident-dj .stream-item-content .activity-row .username::before,
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj .username::before,
+#chat .chat-container ul.chat-main li.vip .stream-item-content .activity-row .username::before,
+#main_avatar_room #main-user-list-room #avatar-list li.vip .username::before,
+#chat .chat-container ul.chat-main li.creator .stream-item-content .activity-row .username::before,
+#main_avatar_room #main-user-list-room #avatar-list li.creator .username::before,
+#chat .chat-container ul.chat-main li.mod .stream-item-content .activity-row .username::before,
+#main_avatar_room #main-user-list-room #avatar-list li.mod .username::before,
+#chat .chat-container ul.chat-main li.manager .stream-item-content .activity-row .username::before,
+#main_avatar_room #main-user-list-room #avatar-list li.manager.username::before,
+#chat .chat-container ul.chat-main li.co-owner .stream-item-content .activity-row .username::before,
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner .username::before {
+    margin-right: 5px;
+    font-weight: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    display: inline-block;
+}
+
+/* Using Foundation Icons */
+#chat .chat-container ul.chat-main li.resident-dj .stream-item-content .activity-row .username::before,
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj .username::before,
+#chat .chat-container ul.chat-main li.vip .stream-item-content .activity-row .username::before,
+#main_avatar_room #main-user-list-room #avatar-list li.vip .username::before,
+#chat .chat-container ul.chat-main li.creator .stream-item-content .activity-row .username::before,
+#main_avatar_room #main-user-list-room #avatar-list li.creator .username::before {
+    font-family: 'foundation-icons';
+}
+
+/* Using Icomoon */
+#chat .chat-container ul.chat-main li.mod .stream-item-content .activity-row .username::before,
+#main_avatar_room #main-user-list-room #avatar-list li.mod .username::before {
+    font-size: 15px;
+    font-family: icomoon;
+}
+
+/* Using Glyphter */
+#chat .chat-container ul.chat-main li.manager .stream-item-content .activity-row .username::before,
+#main_avatar_room #main-user-list-room #avatar-list li.manager.username::before,
+#chat .chat-container ul.chat-main li.co-owner .stream-item-content .activity-row .username::before,
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner .username::before {
+    font-family: 'Glyphter';
+}
+
+
+/* Icons */
+#chat .chat-container ul.chat-main li.resident-dj .stream-item-content .activity-row .username::before,
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj .username::before {
+    content: "\f17b";
+}
+
+#chat .chat-container ul.chat-main li.vip .stream-item-content .activity-row .username::before,
+#main_avatar_room #main-user-list-room #avatar-list li.vip .username::before {
+    content: "\f1ee";
+}
+
+#chat .chat-container ul.chat-main li.mod .stream-item-content .activity-row .username::before,
+#main_avatar_room #main-user-list-room #avatar-list li.mod .username::before {
+    content: "\e801";
+}
+
+#chat .chat-container ul.chat-main li.manager .stream-item-content .activity-row .username::before,
+#main_avatar_room #main-user-list-room #avatar-list li.manager .username::before {
+    content: "\e902";
+}
+
+#chat .chat-container ul.chat-main li.co-owner .stream-item-content .activity-row .username::before,
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner .username::before {
+    content: "\0043";
+}
+
+#chat .chat-container ul.chat-main li.creator .stream-item-content .activity-row .username::before,
+#main_avatar_room #main-user-list-room #avatar-list li.creator .username::before {
+    content: "\0043";
+}
