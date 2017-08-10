@@ -1,5 +1,10 @@
 /* All icons */
-#chat .chat-container ul.chat-main li .stream-item-content .activity-row .username .user-role-icon {
+#chat .chat-container ul.chat-main li.resident-dj .stream-item-content .activity-row .username .user-role-icon,
+#chat .chat-container ul.chat-main li.vip .stream-item-content .activity-row .username .user-role-icon,
+#chat .chat-container ul.chat-main li.mod .stream-item-content .activity-row .username .user-role-icon,
+#chat .chat-container ul.chat-main li.manager .stream-item-content .activity-row .username .user-role-icon,
+#chat .chat-container ul.chat-main li.co-owner .stream-item-content .activity-row .username .user-role-icon,
+#chat .chat-container ul.chat-main li.creator .stream-item-content .activity-row .username .user-role-icon {
     text-indent: 0;
     display: inline-block !important;
 }
@@ -8,17 +13,16 @@
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj .username::before,
 #chat .chat-container ul.chat-main li.vip .stream-item-content .activity-row .username .user-role-icon::before,
 #main_avatar_room #main-user-list-room #avatar-list li.vip .username::before,
-#chat .chat-container ul.chat-main li.creator .stream-item-content .activity-row .username .user-role-icon::before,
-#main_avatar_room #main-user-list-room #avatar-list li.creator .username::before,
 #chat .chat-container ul.chat-main li.mod .stream-item-content .activity-row .username .user-role-icon::before,
 #main_avatar_room #main-user-list-room #avatar-list li.mod .username::before,
 #chat .chat-container ul.chat-main li.manager .stream-item-content .activity-row .username .user-role-icon::before,
 #main_avatar_room #main-user-list-room #avatar-list li.manager .username::before,
 #chat .chat-container ul.chat-main li.co-owner .stream-item-content .activity-row .username .user-role-icon::before,
-#main_avatar_room #main-user-list-room #avatar-list li.co-owner .username::before {
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner .username::before,
+#chat .chat-container ul.chat-main li.creator .stream-item-content .activity-row .username .user-role-icon::before,
+#main_avatar_room #main-user-list-room #avatar-list li.creator .username::before {
     margin-right: 5px;
     font-weight: normal;
-    font-size: 15px;
     line-height: 1;
     text-decoration: inherit;
     display: inline-block;
@@ -37,7 +41,6 @@
 #main_avatar_room #main-user-list-room #avatar-list li.mod .username::before,
 #chat .chat-container ul.chat-main li.manager .stream-item-content .activity-row .username .user-role-icon::before,
 #main_avatar_room #main-user-list-room #avatar-list li.manager .username::before {
-    font-size: 15px;
     font-family: icomoon;
 }
 
@@ -55,21 +58,25 @@
 #chat .chat-container ul.chat-main li.resident-dj .stream-item-content .activity-row .username .user-role-icon::before,
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj .username::before {
     content: "\f17b";
+    font-size: 15px;
 }
 
 #chat .chat-container ul.chat-main li.vip .stream-item-content .activity-row .username .user-role-icon::before,
 #main_avatar_room #main-user-list-room #avatar-list li.vip .username::before {
     content: "\f1ee";
+    font-size: 15px;
 }
 
 #chat .chat-container ul.chat-main li.mod .stream-item-content .activity-row .username .user-role-icon::before,
 #main_avatar_room #main-user-list-room #avatar-list li.mod .username::before {
     content: "\e801";
+    font-size: 10px;
 }
 
 #chat .chat-container ul.chat-main li.manager .stream-item-content .activity-row .username .user-role-icon::before,
 #main_avatar_room #main-user-list-room #avatar-list li.manager .username::before {
     content: "\e902";
+    font-size: 15px;
 }
 
 #chat .chat-container ul.chat-main li.co-owner .stream-item-content .activity-row .username .user-role-icon::before,
@@ -77,4 +84,5 @@
 #chat .chat-container ul.chat-main li.creator .stream-item-content .activity-row .username .user-role-icon::before,
 #main_avatar_room #main-user-list-room #avatar-list li.creator .username::before {
     content: "\0043";
+    font-size: 15px;
 }
