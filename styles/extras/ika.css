@@ -1,0 +1,33 @@
+#chat:not(.role-colors-disabled) .chat-container ul.chat-main li.user-56cb6b73e85e1f1c0170f10a .stream-item-content .activity-row .username {
+    color: #F0B4FF !important;
+}
+
+#chat .chat-container ul.chat-main li.user-56cb6b73e85e1f1c0170f10a .stream-item-content .activity-row .username::before {
+    content: "\f192";
+    font-family: "foundation-icons";
+    font-weight: normal;
+    line-height: 1;
+    margin-right: 5px;
+}
+
+#chat .chat-container ul.chat-main li.user-56cb6b73e85e1f1c0170f10a .stream-item-content .activity-row .username:hover::after {
+    content: "Waddie Manager" !important;
+    font-weight: 700;
+    font-family: proxima-nova, sans-serif;
+    font-size: 10px;
+}
+
+#avatar ul.avatar-list li.user-angeloidikaros p.dubs::before {
+    content: "Waddie Manager - ";
+    font-weight: 700 !important;
+}
+
+#avatar:not(.role-colors-disabled) ul.avatar-list li.user-angeloidikaros p.dubs::before {
+    color: #F0B4FF !important;
+}
+
+#avatar:not(.role-colors-disabled) ul.avatar-list .user-angeloidikaros,
+#avatar:not(.role-colors-disabled) ul.avatar-list .user-angeloidikaros::after,
+#avatar:not(.role-colors-disabled) ul.avatar-list .user-angeloidikaros p.username {
+    color: #F0B4FF !important;
+}
